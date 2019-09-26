@@ -1,0 +1,4 @@
+*.sublime-workspace
+ipympl.ipynb
+book_fail.ipynb
+.ipynb_checkpoints/

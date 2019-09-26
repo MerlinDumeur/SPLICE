@@ -1,0 +1,28 @@
+{
+    "build_systems":
+    [
+        {
+            "name": "Anaconda Python Builder",
+            "selector": "source.python",
+            "shell_cmd": "\"/home/merlin/anaconda3/bin/python\" -u \"$file\""
+        }
+    ],
+    "folders":
+    [
+        {
+            "follow_symlinks": true,
+            "path": "."
+        }
+    ],
+    "settings":
+    {
+        // "anaconda_linting": true,
+        // "anaconda_linting_behaviour": "always",
+        // "pep257": false,
+        "python_interpreter": "/home/merlin/anaconda3/envs/SPLICE/bin/python",
+        "test_command": "python -m unittest discover",
+        // "use_pylint": true,
+        // "validate_imports": true
+    }
+}
+ 
